@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+ul, li {
+    list-style: none;
+}
+
 body {
     width: 100%;
     margin: 0 auto;
@@ -43,13 +47,13 @@ section button {
     width: 100%;
     height: fit-content;
     overflow: hidden;
+    position: relative;
 }
 
 .slides {
     display: block;
     width: 10000px;
     height: 100%;
-    list-style: none;
 }
 
 .slide {
@@ -64,6 +68,27 @@ section button {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.page-indicator {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page-indicator li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #7fb5ff88;
+    margin: 0 5px;
+}
+
+.page-indicator li.active {
+    background-color: #7fb5ff;
 }
 
 footer {
