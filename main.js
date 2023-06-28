@@ -138,3 +138,11 @@ slider.addEventListener("touchend", function(event) {
         prev();
     }
 });
+
+function signin() {
+    window.location.href = "signin.html";
+}
+
+function signup() {
+    window.location.href = "signup.html";
+}
