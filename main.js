@@ -117,11 +117,11 @@ slider.addEventListener("mousedown", function(event) {
 
 slider.addEventListener("mouseup", function(event) {
     currentX = event.clientX;
-    if(startX > currentX) {
-        next();
+    if(startX < currentX) {
+        prev();
     }
     else {
-        prev();
+        next();
     }
 });
 
@@ -131,11 +131,11 @@ slider.addEventListener("touchstart", function(event) {
 
 slider.addEventListener("touchend", function(event) {
     currentX = event.touches[0].clientX;
-    if(startX > currentX) {
-        next();
+    if(startX < currentX) {
+        prev();
     }
     else {
-        prev();
+        next();
     }
 });
 
