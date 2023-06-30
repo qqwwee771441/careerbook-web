@@ -12,6 +12,10 @@ nav, button {
     cursor: pointer;
 }
 
+img {
+    user-select: none;
+}
+
 body {
     width: 100%;
     margin: 0 auto;
@@ -78,7 +82,6 @@ section button:hover {
     height: auto;
     object-fit: cover;
     pointer-events: none;
-    user-select: none;
 }
 
 .page-indicator {
