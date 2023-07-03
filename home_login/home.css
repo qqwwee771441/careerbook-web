@@ -66,6 +66,8 @@ section .split hr {
 
 section .split span {
     margin: 0 20px;
+    color: dimgray;
+    font-size: 14px;
 }
 
 section .social-login {
@@ -86,7 +88,7 @@ section .social-login {
 
 .social-login img {
     margin-left: 5px;
-    margin-right: 10px;
+    margin-right: 20px;
     width: 40px;
     height: 40px;
 }
@@ -101,7 +103,7 @@ section .social-login {
 }
 
 .kakao img {
-    padding: 4px;
+    padding: 3px;
 }
 
 .social-login .google {
@@ -122,4 +124,12 @@ section .social-login {
 
 .signup span:hover {
     cursor: pointer;
+}
+
+footer {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 30px;
+    color: gray;
+    font-size: 12px;
 }
