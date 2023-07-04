@@ -12,6 +12,36 @@ body {
     align-items: center;
 }
 
+button {
+    width: 200px;
+    height: 150px;
+    font-size: 40px;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    margin-right: 20px;
+    color:white
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:first-child {
+    background-color: palevioletred;
+}
+
+button:first-child:hover {
+    background-color: rgb(201, 104, 136);
+}
+
+button:last-child {
+    background-color:limegreen;
+}
+
+button:last-child:hover {
+    background-color:rgb(46, 185, 46);
+}
+
 footer {
     margin: 0 auto;
     position: absolute;
