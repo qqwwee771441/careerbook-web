@@ -29,8 +29,8 @@ section .main-logo {
     width: 80%;
     height: auto;
     margin: 0 auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 section form input {
@@ -49,7 +49,7 @@ section form button {
     color: white;
     font-size: 15px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 section .split {
@@ -57,7 +57,7 @@ section .split {
     width: 300px;
     align-items: center;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 section .split hr {
