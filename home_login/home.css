@@ -52,6 +52,19 @@ section form button {
     margin-bottom: 40px;
 }
 
+section form button:disabled {
+    background-color: rgb(231, 120, 157);
+    cursor: default;
+}
+
+section form button:hover {
+    background-color:rgb(197, 103, 134);
+}
+
+section form button:hover:disabled {
+    background-color: rgb(231, 120, 157);
+}
+
 section .split {
     display: flex;
     width: 300px;
