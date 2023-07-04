@@ -24,17 +24,17 @@ header img {
     height: auto;
 }
 
-section span:first-child {
+section span:last-child {
     display: block;
     text-align: center;
     margin-bottom: 10px;
 }
 
-section span:first-child strong {
+section span:last-child strong {
     color: #37DE2F;
 }
 
-section span:first-child strong:hover {
+section span:last-child strong:hover {
     cursor: pointer;
 }
 
