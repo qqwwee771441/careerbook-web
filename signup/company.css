@@ -24,6 +24,20 @@ header img {
     height: auto;
 }
 
+section span:first-child {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section span:first-child strong {
+    color: #37DE2F;
+}
+
+section span:first-child strong:hover {
+    cursor: pointer;
+}
+
 footer {
     margin: 0 auto;
     position: absolute;
