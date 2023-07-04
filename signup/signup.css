@@ -12,6 +12,18 @@ body {
     align-items: center;
 }
 
+header {
+    position: absolute;
+    top: 30px;
+    width: 320px;
+    height: fit-content;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
 button {
     width: 200px;
     height: 150px;
@@ -19,7 +31,8 @@ button {
     border: 1px solid lightslategray;
     border-radius: 5px;
     margin-right: 20px;
-    color:white
+    color:white;
+    text-shadow: 1px 1px 0 black;
 }
 
 button:hover {
@@ -27,19 +40,19 @@ button:hover {
 }
 
 button:first-child {
-    background-color: palevioletred;
+    background-color:#37DE2F;
 }
 
 button:first-child:hover {
-    background-color: rgb(201, 104, 136);
+    background-color:#31c529;
 }
 
 button:last-child {
-    background-color:limegreen;
+    background-color: palevioletred;
 }
 
 button:last-child:hover {
-    background-color:rgb(46, 185, 46);
+    background-color: rgb(201, 104, 136);
 }
 
 footer {

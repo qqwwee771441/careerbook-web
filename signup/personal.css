@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    top: 30px;
+    width: 320px;
+    height: fit-content;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+section span:first-child {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section span:first-child strong {
+    color: palevioletred;
+}
+
+section span:first-child strong:hover {
+    cursor: pointer;
+}
+
+.signup {
+    width: 400px;
+    height: 600px;
+    border: 1px solid lightslategray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.signup .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social button{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.social img {
+    margin-left: 5px;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.social .naver {
+    background-color: #1EC800;
+    color: white;
+    margin-top: 10px;
+}
+
+.social .kakao {
+    background-color: #FAE100;
+}
+
+.kakao img {
+    padding: 3px;
+}
+
+.social .google {
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+}
+
+.google img {
+    padding: 6px;
+}
+
+.signup .split {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.signup .split hr {
+    flex: 1;
+}
+
+.signup .split span {
+    margin: 0 20px;
+    color: dimgray;
+    font-size: 14px;
+}
+
+footer {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 30px;
+    color: gray;
+    font-size: 12px;
+}
