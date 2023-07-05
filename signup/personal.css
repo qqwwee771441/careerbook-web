@@ -29,11 +29,15 @@ header img {
 }
 
 section {
+    width: 400px;
     text-align: center;
+    border: 1px solid lightslategray;
+    margin-top: 20px;
 }
 
-section h2 {
-    margin-bottom: 40px;
+section h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .signup {
@@ -70,7 +74,6 @@ section h2 {
 .social .naver {
     background-color: #1EC800;
     color: white;
-    margin-top: 10px;
 }
 
 .social .kakao {
@@ -90,16 +93,16 @@ section h2 {
     padding: 8px;
 }
 
-section span:last-child {
+body>span {
     display: block;
     text-align: center;
 }
 
-section span:last-child strong {
+body>span strong {
     color: palevioletred;
 }
 
-section span:last-child strong:hover {
+body>span strong:hover {
     cursor: pointer;
 }
 
