@@ -12,16 +12,24 @@
         <img src="images/main_logo.png" alt="logo">
     </header>
 
-    <span>미생이신가요? <strong>개인회원으로 가입하기</strong></span>
+    <span>역량을 펼쳐보고 싶은신가요? <strong>개인회원으로 가입하기</strong></span>
 
     <section>
-        <h3></h3>
-        
+        <h3>비전을 함께 할 인재를 만나보세요.</h3>
         <form action="company-main" method="post">
-            <input type="text" id="businessRegistrationNumber" name="businessRegistrationNumber" placeholder="사업자등록번호">
-            <input type="text" id="username" name="username" placeholder="아이디">
-            <input type="password" id="password" name="password" placeholder="비밀번호">
-            <button type="submit" disabled><strong>회원가입</strong></button>
+            <div class="bsnRgNo">
+                <input type="text" id="businessRegistrationNumber" name="businessRegistrationNumber" placeholder="사업자등록번호" maxlength="10">
+                <p></p>
+            </div>
+            <div class="username">
+                <input type="text" id="username" name="username" placeholder="아이디">
+                <p></p>
+            </div>
+            <div class="pwd">
+                <input type="password" id="password" name="password" placeholder="비밀번호">
+                <p></p>
+            </div>            
+            <button type="submit" disabled><strong>가입하기</strong></button>
         </form>
     </section>
 
